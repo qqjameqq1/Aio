@@ -10,7 +10,7 @@ composer require kevin50406418/aio
 或者是新增package至composer.json
 ```
 "require": {
-  "kevin50406418/allpay": "^1.0.0"
+  "kevin50406418/aio": "^1.0.0"
 },
 ```
 然後更新安裝
