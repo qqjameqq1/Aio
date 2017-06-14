@@ -2,6 +2,7 @@
 
 namespace Kevin50406418\Aio;
 
+use Illuminate\Support\ServiceProvider;
 
 class EcpayServiceProvider extends ServiceProvider
 {
