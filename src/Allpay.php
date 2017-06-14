@@ -16,7 +16,7 @@ class Allpay
 		$this->instance = new AllpayFactory();
 		$this->instance->EncryptType = \EncryptType::ENC_SHA256;
 
-		config('allpay.TestMode')? $this->setForTest(): $this->setForProd();
+		config('allpay.TestMode') ? $this->setForTest() : $this->setForProd();
 	}
 
 	public function instance()
@@ -37,7 +37,8 @@ class Allpay
 		$this->instance->MerchantID = '2000132';
 	}
 
-	private function setForProd(){
+	private function setForProd()
+	{
 		$this->instance->ServiceURL = config('allpay.ServiceURL');
 		$this->instance->HashKey = config('allpay.HashKey');
 		$this->instance->HashIV = config('allpay.HashIV');

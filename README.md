@@ -47,7 +47,7 @@ Ecpay:
 
 'aliases' => [
   // ...
-  'Allpay' => Kevin50406418\Aio\Facade\Ecpay::class,
+  'Ecpay' => Kevin50406418\Aio\Facade\Ecpay::class,
 ]
 ```
 
@@ -79,9 +79,15 @@ return [
 
 ---
 
-### How To Use (for Allpay)
+### How To Use 
+Allpay: 
 ```php
 use Allpay;
+```
+
+Ecpay:
+```php
+use Ecpay;
 ```
 ```php
 public function Demo()

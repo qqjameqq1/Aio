@@ -13,8 +13,7 @@ class Ecpay
 
 	public function __construct()
 	{
-		$this->instance = new AllpayFactory();
-		$this->instance->EncryptType = \EncryptType::ENC_SHA256;
+		$this->instance = new EcpayFactory();
 
 		config('ecpay.TestMode')? $this->setForTest(): $this->setForProd();
 	}
