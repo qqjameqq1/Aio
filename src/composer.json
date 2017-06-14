@@ -1,0 +1,21 @@
+{
+    "name": "kevin50406418/Aio",
+    "description": "AIo - Allpay, Ecpay Laravel 5 version",
+    "type": "ecTool",
+    "keywords": ["laravel","allpay","ecpay"],
+    "authors": [
+        {
+            "name": "Jingxun Lai",
+            "email": "kevin50406418@gmail.com"
+        }
+    ],
+    "require": { },
+    "autoload": {  
+        "classmap": [
+            "src/lib"
+        ],
+        "psr-4": {
+            "Kevin50406418\\Aio\\": "src/"
+        }
+    }
+}
